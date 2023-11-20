@@ -1,0 +1,9 @@
+
+-> difference between bloc and cubic is that cubic doesn't have events.
+Cubit is function based and Bloc is Event based.
+So we can use functions instead of events in cubit. thus is helps to
+avoid boilerplate code(un-necessary code to fire event).
+Also we can emit state as many time as we wants in Cubit where-as in Bloc we cannot emit any state
+as long as we don't add any event.
+
+-> In bloc event were necessary to fire some state but not in cubit.
